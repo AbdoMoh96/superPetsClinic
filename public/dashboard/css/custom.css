@@ -1,0 +1,44 @@
+/* fontawesome edit  */
+table .fas{
+    font-size: 1.2rem;
+}
+
+table .fa-eye{
+    color:hsl(120, 100%, 36%);
+}
+
+table .fa-edit{
+    color:hsl(209, 100%, 50%);
+}
+
+table .fa-trash-alt{
+    color:red;
+}
+
+.icon-link{
+    display: inline-block;
+    margin-right: 0.3rem;
+}
+/* fontawesome edit  */
+
+/*custom form styling*/
+.form-group-width{
+    width: 48%;
+}
+
+.custom-textarea{
+    resize: none;
+    text-align: center;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.select2-selection--multiple[aria-expanded=true] {
+    border-color: blue !important;
+}
+
+.hide{
+    display: none;
+}
