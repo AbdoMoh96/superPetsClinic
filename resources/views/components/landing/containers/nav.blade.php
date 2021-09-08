@@ -39,11 +39,11 @@
                                 {{trans('landing.nav_appointments')}}
                             </a>
                         </li>
-                        <li class="nav-item">
+                        {{--<li class="nav-item">
                             <a class="nav-link" href="#">
                                 {{trans('landing.nav_contact')}}
                             </a>
-                        </li>
+                        </li>--}}
                         @if(app()->getLocale() === 'ar')
                         <li class="nav-item">
                             <a class="nav-link" href="{{route("store.lang" , "en")}}">

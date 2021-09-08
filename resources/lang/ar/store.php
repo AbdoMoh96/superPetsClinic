@@ -156,6 +156,16 @@ return [
     "service_section_festival" => "Festival Offer",
     "service_section_festival_desc" => "عروض خاصة جديدة",
     /*<================Services=Section=end==============>*/
+
+    /*<================Search=Section==================>*/
+    "search_section_holder" => "اعثر على الأفضل لحيوانك الأليف...",
+    /*<================search=Section=end==============>*/
+
+    /*<================Subscribe=Section==================>*/
+    "subscribe_section_btn" => "اشتراك",
+    "subscribe_section_holder" => "أدخل بريدك الإلكتروني",
+    /*<================Subscribe=Section=end==============>*/
+
     /*<==============================================================================>*/
 
 

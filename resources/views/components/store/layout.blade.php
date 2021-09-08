@@ -74,7 +74,7 @@
                             @csrf
                             <input id="query search-autocomplete"
                                    type="text"
-                                   placeholder="Find the best for your pet..."
+                                   placeholder="{{trans('store.search_section_holder')}}"
                                    class="nav-search nav-search-field"
                                    name="title"
                                    aria-expanded="true">
@@ -104,7 +104,7 @@
                                                                            class="form-control"
                                                                            id="exampleInputPassword1"
                                                                            name="title"
-                                                                           placeholder="Search a Product">
+                                                                           placeholder="{{trans('store.search_section_holder')}}">
                                                                 </div>
                                                                 <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
                                                             </form>

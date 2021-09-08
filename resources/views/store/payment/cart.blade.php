@@ -62,6 +62,9 @@
                                                     type="number"
                                                     name="quantity"
                                                     class="form-control input-number"
+                                                    min="1"
+                                                    max="{{$product->quantity}}"
+                                                    onchange="itemIncrement(this , '{{$product->code}}' , {{$product->price}})"
                                                     value="{{$product->pivot->quantity}}">
                                             </div>
                                         </div>

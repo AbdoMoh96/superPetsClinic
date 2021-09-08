@@ -156,6 +156,17 @@
      "service_section_festival" => "Festival Offer",
      "service_section_festival_desc" => "New Online Special Festival Offer",
      /*<================Services=Section=end==============>*/
+
+
+     /*<================Search=Section==================>*/
+      "search_section_holder" => "Find the best for your pet...",
+     /*<================search=Section=end==============>*/
+
+     /*<================Subscribe=Section==================>*/
+     "subscribe_section_btn" => "Subscribe",
+     "subscribe_section_holder" => "Enter Your Email",
+     /*<================Subscribe=Section=end==============>*/
+
 /*<==============================================================================>*/
 
 

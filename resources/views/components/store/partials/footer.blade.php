@@ -47,12 +47,12 @@
                             @else
 {{--                                clinic footer nav --}}
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Appointment</a></li>
-                                <li><a href="#">Gallery</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">{{trans('landing.nav_home')}}</a></li>
+                                <li><a href="#">{{trans('landing.nav_about')}}</a></li>
+                                <li><a href="#">{{trans('landing.nav_services')}}</a></li>
+                                <li><a href="#">{{trans('landing.nav_gallery')}}</a></li>
+                                <li><a href="#">{{trans('landing.nav_appointments')}}</a></li>
+{{--                                <li><a href="#">{{trans('landing.nav_contact')}}</a></li>--}}
                             </ul>
                             @endif
                         </div>
@@ -114,9 +114,14 @@
                         <form class="form-inline subscribe-form auth-form needs-validation" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
                               target="_blank">
                             <div class="form-group mx-sm-3">
-                                <input type="text" class="form-control" name="EMAIL" id="mce-EMAIL" placeholder="Enter your email" required="required">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    name="EMAIL"
+                                    id="mce-EMAIL"
+                                    placeholder="{{trans('store.subscribe_section_holder')}}" required="required">
                             </div>
-                            <button type="submit" class="btn btn-solid" id="mc-submit">subscribe</button>
+                            <button type="submit" class="btn btn-solid" id="mc-submit">{{trans('store.subscribe_section_btn')}}</button>
                         </form>
                     </div>
                 </div>
