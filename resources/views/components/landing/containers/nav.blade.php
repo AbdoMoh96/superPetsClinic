@@ -13,34 +13,34 @@
                 <div class=" main-menu-two ms-auto">
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown active">
-                            <a href="#" class="nav-link" role="button" aria-haspopup="true" aria-expanded="false">
+                            <a href="#home" class="nav-link" role="button" aria-haspopup="true" aria-expanded="false">
                                 {{trans('landing.nav_home')}}
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="#about">
                                 {{trans('landing.nav_about')}}
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="#service">
                                 {{trans('landing.nav_services')}}
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="#gallery">
                                 {{trans('landing.nav_gallery')}}
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="#appointment">
                                 {{trans('landing.nav_appointments')}}
                             </a>
                         </li>
                         {{--<li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="#contact">
                                 {{trans('landing.nav_contact')}}
                             </a>
                         </li>--}}

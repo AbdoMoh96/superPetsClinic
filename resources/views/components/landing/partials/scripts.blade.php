@@ -30,5 +30,6 @@
 <script src="{{asset('landing/js/parsley.min.js')}}"></script>
 
 <script src="{{asset('landing/js/active.js')}}"></script>
+<script src="{{asset('landing/js/script.js')}}"></script>
 
 {{ $slot ?? '' }}

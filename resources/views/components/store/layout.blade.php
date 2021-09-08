@@ -31,9 +31,12 @@
                          </li>
                         @endif
                         @if(!auth()->guard("web")->check())
-                          <li style="padding-right: 5px;"><a href="{{route("store.login")}}">{{trans('store.top_bar_login')}}</a></li>
+                          <li style="padding-right: 0px;"><a href="{{route("store.login")}}">{{trans('store.top_bar_login')}}</a></li>
                           <li style="padding-left: 5px;"><a href="{{route("store.register.get")}}">{{trans('store.top_bar_register')}}</a></li>
+
+
                         @else
+
                         <li class="onhover-dropdown mobile-account">
                             <i class="fa fa-user" aria-hidden="true"></i>
                             {{auth()->user()->first_name.' '.auth()->user()->last_name }}
@@ -56,6 +59,11 @@
                             </ul>
                         </li>
                         @endif
+                            <li id="block" style="padding-left: 5px;">
+                                <a class="btn btn-solid black-btn" style="color: #fff !important;" href="{{route("clinic.index")}}">
+                                    {{trans('store.layout_clinic_btn')}}
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -140,7 +148,21 @@
                                 </li>
                                 @if(auth()->check())
                                   <x-store.containers.cart/>
-                                    @endif
+                                @else
+                                    <li class="onhover-div mobile-cart">
+                                        <div>
+                                            <a href="{{route('store.login')}}">
+                                               <img
+                                                   src="{{asset('store/images/icon/cart.png')}}"
+                                                   class="img-fluid blur-up lazyload"
+                                                   alt="">
+
+                                            <span id="notification-bell" class="badge badge-pill badge-danger">0</span>
+                                            <i class="ti-shopping-cart"></i>
+                                            </a>
+                                        </div>
+                                    </li>
+                                @endif
                             </ul>
                         </div>
                     </div>

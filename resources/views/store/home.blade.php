@@ -181,9 +181,9 @@
 
     <x-slot name="scripts">
         <!--modal popup start-->
-          <x-store.partials.popup/>
+{{--          <x-store.partials.popup/>--}}
         <!--modal popup end-->
-        <script>
+        {{--<script>
             $(window).on('load', function() {
                 $('#exampleModal').modal('show');
             });
@@ -210,7 +210,7 @@
                     return false;
                 });
             });
-        </script>
+        </script>--}}
 
         <script>
             @if(session()->has('message'))

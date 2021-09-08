@@ -235,5 +235,6 @@
      "cart_page_continue_btn" => "continue shopping",
      "profile_save_btn" => "save settings",
      "profile_address_btn" => "create address",
+     "layout_clinic_btn" => "Clinic"
 /*<==============================================================================>*/
  ];

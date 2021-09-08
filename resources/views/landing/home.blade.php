@@ -4,7 +4,7 @@
         <title> {{config('app.name')}} | SuperPets Clinic </title>
     </x-slot>
 
-<div class="petcare-slider owl-carousel owl-theme">
+<div id="home" class="petcare-slider owl-carousel owl-theme">
 
     @foreach($homeSlider->slides as $slide)
     <div class="single-petcare-slider item-one">
@@ -26,7 +26,7 @@
 </div>
 
 
-<section class="pc-about-section">
+<section id="about" class="pc-about-section">
 
     <div class="pc-about-main ptb-100">
         <div class="container">
@@ -69,7 +69,7 @@
 
 
 
-<section class="pc-services-section ptb-100">
+<section id="service" class="pc-services-section ptb-100">
     <div class="container">
         <div class="pc-section-title">
             <h3>{{trans('landing.home_page_services')}}</h3>
@@ -91,7 +91,7 @@
 </section>
 
 
-<section class="pc-gallery-section">
+<section id="gallery" class="pc-gallery-section">
     <div class="container-fluid">
         <div class="pc-section-title">
             <h3>{{trans('landing.home_page_gallery')}}</h3>
@@ -121,7 +121,7 @@
 
 
 
-<section class="pc-contact-section ptb-100">
+<section id="appointment" class="pc-contact-section ptb-100">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 wow zoomIn">
